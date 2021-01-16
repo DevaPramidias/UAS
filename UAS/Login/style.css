@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+header{
+	background-image: url(blackk.jpg);
+	height: 10vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #696969;
+}
+
+.logo img{
+	float: left;
+	width: 200px;
+	height: auto;
+	margin: auto;
+	margin-top: 5px;
+}
+
+.mainer{
+	max-width: 1200px;
+	margin: auto;	
+}
+
+.tabeln{
+	width: 400px;
+	height: 600px;
+	vertical-align: top;
+}
+.sign{
+	margin-left: 40px;
+}
+
+.pass{
+	margin-left: 30px;
+}
+
+input[type=text]  {
+		background:none;
+		color: black;
+		padding: 10px;
+		border: 1px solid black;
+		margin-left: 150px;
+	}
+
+.click{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+ 
+.click:hover{
+	color: black;
+    background-color: white;
+    transition-duration: 1.0s;
+    border: 1px solid black;
+}
+ 
+.click-masuk{
+    background-color: black;
+    color: white;
+}
+
+.tabelk{
+	width: 400px;
+	height: 600px;
+	vertical-align: top;
+}
+
+.join{
+	display: block;
+    text-decoration: none;
+    padding: 20px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.join:hover{
+	color: black
+	background-color: white;
+	transition-duration: 1.0s;
+	border: 1px solid black;
+}
+
+.join-us{
+	background-color: white;
+	color: black;
+}
+
+footer
+{
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
